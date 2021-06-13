@@ -1,0 +1,279 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+
+    color: #848484;
+    font-size: 16px;
+    line-height: 1.875em;
+    
+}
+
+.navbar-toggler {
+    border-color: rgba(0, 0, 0, 0)
+}
+.navbar-brand{
+    font-family:  'BioRhyme', serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #848484;
+    
+}
+.navbar-brand:hover{ 
+    color: black;
+}   
+
+.navbar-nav li a{
+
+    font-family: 'Poppins', sans-serif;
+    color: #848484;
+    font-size: 17px;
+    word-spacing: 1px;
+
+}
+
+ul li a{
+    letter-spacing: 1px;
+}
+ul li{
+    margin-right: 15px;
+}
+/* Navbar Underline Transition Effect */
+/* ----------------------------------------------------------------------------------------------------- */
+.navbar .navbar-nav .nav-link:hover {
+    color: red;
+  }
+  @media only screen and (min-width: 960px) {
+    .navbar .navbar-nav .nav-link {
+      padding: 0.5 0.7em;
+    }
+    .navbar {
+      padding: 0;
+    }
+    .navbar .navbar-brand {
+      padding: 0 0.7em;
+    }
+  }
+  .navbar .navbar-nav .nav-link {
+    position: relative;
+  }
+  .navbar .navbar-nav .nav-link::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color:red;
+    color: transparent;
+    width: 0%;
+    content: '';
+    height: 3px;
+    transition: all 0.5s;
+  }
+  .navbar .navbar-nav .nav-link:hover::after {
+    width: 100%;
+  }
+
+.contact-icon i{
+    font-size: 18px;
+
+}
+  /* ------------------------------------------------------------------------------ */
+.hr-row{
+    height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    margin: 0 15%;
+}
+
+.button-contact-me{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #848484;
+    background-color: white;
+    border: 0px;
+    font-size: 18px;
+    font-weight: 600; 
+    margin-right: 2%;  
+}
+
+/* ----------------------------------Button -desc Transition Effect ------------------------------------ */
+
+.button-contact-me:hover {
+    color: black;
+}
+@media only screen and (min-width :960px) {
+    .button-contact-me{
+        padding: 0.4rem 0.2rem;
+        position: relative;
+    }
+    .button-contact-me::after {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        background-color: black;
+        color: transparent;
+        width: 0%;
+        content: '';
+        height: 3px;
+        transition: all 0.5s;
+
+    }
+    .button-contact-me:hover::after{
+        width: 100%;
+    }
+}
+/* ----------------------------------------------------------------------------------------------------- */
+/* .button-contact-me i{
+    font-size: 20px;
+    margin-left:10px; 
+
+} */
+
+.portfolio-navbar{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.hr-row{
+    margin-bottom: 50px;
+}
+
+.myimage{
+    height: 50vh;
+    width: 50%;
+    margin-left: 22%;
+    margin-bottom: 7%;
+}
+.my-desc-h1{
+    font-family:  'BioRhyme', serif;
+    
+}
+.my-desc-paragraph1{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+.my-desc-paragraph2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+
+.about-desc-h1{
+    font-family:  'BioRhyme', serif;
+
+}
+.about-desc-p1{
+    margin-top: 3%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.about-desc-p1-p1{
+    margin-top: 3%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10%;
+}
+.about-desc-p2{
+    margin-top: 3%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.about-desc-p2-p2{
+    margin-top: 3%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10%;
+}
+.button-about-me{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: white;
+    border: 0px;
+    font-size: 18px;
+    font-weight: 600; 
+    margin-bottom: 5%;
+}
+.button-about-me i{
+    font-size: 20px;
+    margin-left:10px; 
+
+
+}
+.skills-desc-h1{
+    font-family:  'BioRhyme', serif;
+    margin-bottom: 2%;
+}
+.skills-desc-p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 2%;
+    
+}
+.skills-desc-web-h4{
+    font-family:  'BioRhyme', serif;
+    font-weight: 500;
+}
+.skills-desc-web-p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 2% 0%;
+}
+.skills-desc-front-h4{
+    font-family:  'BioRhyme', serif;
+    font-weight: 500;
+}
+
+.skills-desc-front-p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 2% 0%;
+}
+.skills-desc-ui-h4{
+    font-family:  'BioRhyme', serif;
+    font-weight: 500;
+}
+.skills-desc-ui-p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 2% 0%;
+}
+.skills-desc-consult-h4{
+    font-family:  'BioRhyme', serif;
+    font-weight: 500;
+}
+.skills-desc-consult-p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 2% 0%;
+}
+.skills-desc-web{
+    margin-bottom: 6%;
+    
+}
+.skills-desc-consult{
+    margin-bottom: 10%;
+}
+.skills-desc-front{
+    margin-bottom:10%;
+}
+.skills-desc-ui{
+    margin-bottom: 6%;
+}
+.skills-desc-web i{
+    margin-right: 2%;
+    font-size: 1.8rem;
+    color: red;
+}
+.social-icons  li{
+    display: inline-block;
+}
+.social-icons  li i{
+    font-size: 1.5rem;
+    color: red;
+    
+}   
+.footer{
+    background-color: #848484;
+}
