@@ -40,7 +40,7 @@ ul li{
 /* Navbar Underline Transition Effect */
 /* ----------------------------------------------------------------------------------------------------- */
 .navbar .navbar-nav .nav-link:hover {
-    color: red;
+    color: black;
   }
   @media only screen and (min-width: 960px) {
     .navbar .navbar-nav .nav-link {
@@ -62,7 +62,7 @@ ul li{
     left: 0;
     right: 0;
     margin: auto;
-    background-color:red;
+    background-color:black;
     color: transparent;
     width: 0%;
     content: '';
@@ -201,7 +201,7 @@ ul li{
 
 
 }
-.skills-desc-h1{
+.skills-desc-h2{
     font-family:  'BioRhyme', serif;
     margin-bottom: 2%;
 }
@@ -264,9 +264,113 @@ ul li{
 .skills-desc-web i{
     margin-right: 2%;
     font-size: 1.8rem;
-    color: red;
+    color:red;
 }
-.social-icons  li{
+.education-desc-h2{
+    font-family:  'BioRhyme', serif;
+}
+.education-desc-p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 2% 0%;
+}
+.education-desc-ssc-h4{
+    font-family:  'BioRhyme', serif;
+    font-weight: 500;
+
+}
+.education-desc-ssc-p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 2% 0%;
+}
+.education-desc-hsc-h4{
+    font-family:  'BioRhyme', serif;
+    font-weight: 500;    
+}
+.education-desc-hsc-p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 2% 0%;
+}
+.education-desc-be-h4{
+    font-family:  'BioRhyme', serif;
+    font-weight: 500;    
+}
+.education-desc-be-p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 2% 0%;
+}
+.education-desc-p2{
+    margin-top: 8%;
+}
+.education-desc-p3{
+    margin-top: 8%;
+}
+.contact-desc-h2{
+    font-family:  'BioRhyme', serif;
+    font-weight: 500;   
+}
+.contact-desc-p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 2% 0%;
+}
+.contact-desc-email{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 2% 0%;
+}
+.contact-desc-name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 2% 0%;
+}
+.contact-desc-message{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    
+}
+#exampleFormControlInput1{
+   border-top-style: none;
+   border-left-style: none;
+   border-right-style: none;
+   border-bottom: 2px solid black;
+}
+#exampleFormControlInput2{
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom: 2px solid black;
+ }
+ #exampleFormControlTextarea1{
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 3%;
+ }
+ .hr-row-footer{
+     border: 0;
+	 box-shadow: 0 10px 10px -10px #8c8b8b inset;
+     margin: 1% 15%;
+     
+ }
+.footer-desc-p{
+    font-family:  'BioRhyme', serif;
+    font-weight: 600; 
+ }
+/* .contact-desc-input-name{
+    border-top-style: none;
+} */
+
+/* .formcontrol1  {
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style:none ;
+} */
+/* .social-icons  li{
     display: inline-block;
 }
 .social-icons  li i{
@@ -276,4 +380,4 @@ ul li{
 }   
 .footer{
     background-color: #848484;
-}
+} */
