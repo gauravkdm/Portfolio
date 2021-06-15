@@ -172,25 +172,27 @@
         <hr class="hr-row">
         <section>
           <div class="container">
-            <form class="contact-form row" action="">
+            <form class="contact-form row" action="connect.php" method="post">
               <h2 class="col-sm-12 col-md-11 mb-4 ml-2 contact-desc-h2">Contact Us </h2>
               <p class="col-sm-12 col-md-11 ml-2 contact-desc-p">Feel free to give a Feedback . We will get in touch with you shortly</p>
               <div class="col-sm-12 col-md-6">
                 <div class="col-sm-12 col-md-11 mb-3">
                   <label for="exampleFormControlInput1" class="form-label contact-desc-email">Email address</label>
-                  <input type="email" class="form-control " id="exampleFormControlInput1" placeholder="Enter Email :">
+                  <input type="email" class="form-control " id="exampleFormControlInput1" placeholder="Enter Email :" name="useremail">
                 </div>  
               </div>
               <div class="col-sm-12 col-md-6">
                 <div class="col-sm-12 col-md-11 mb-3 ">
                   <label for="exampleFormControlInput2" class="form-label2 contact-desc-name">Your Name</label>
-                  <input type="text" class="form-control " id="exampleFormControlInput2" placeholder="Enter Name :">
+                  <input type="text" class="form-control " id="exampleFormControlInput2" placeholder="Enter Name :" name="username">
                 </div>  
               </div>
               <div class="col-sm-12 col-md-12 ml-3 mb-5 mt-2 ">
                 <label for="exampleFormControlTextarea1" class="form-label3 contact-desc-message ">Enter Message</label>
-                <textarea class="form-control  " id="exampleFormControlTextarea1" rows="1" placeholder="Enter Message :"></textarea>
+                <textarea class="form-control  " id="exampleFormControlTextarea1" rows="1" placeholder="Enter Message :" name="usermessage"></textarea>
               </div>
+              <button type="submit" value="Submit" name="submit" class="button-contact-form col-sm-2 col-md-1 ">Submit</button>
+
             </form>
           </div>
         </section>

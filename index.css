@@ -361,23 +361,40 @@ ul li{
     font-family:  'BioRhyme', serif;
     font-weight: 600; 
  }
-/* .contact-desc-input-name{
-    border-top-style: none;
-} */
-
-/* .formcontrol1  {
-    border-top-style: none;
-    border-left-style: none;
-    border-right-style:none ;
-} */
-/* .social-icons  li{
-    display: inline-block;
+ .button-contact-me:hover {
+    color: black;
 }
-.social-icons  li i{
-    font-size: 1.5rem;
-    color: red;
+.button-contact-form{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #848484;
+    background-color: white;
+    border: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 2.1%;
     
-}   
-.footer{
-    background-color: #848484;
-} */
+}
+@media only screen and (min-width :960px) {
+    .button-contact-form{
+        padding: 0.4rem 0.2rem;
+        position: relative;
+    }
+    .button-contact-form::after {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        background-color: black;
+        color: transparent;
+        width: 0%;
+        content: '';
+        height: 3px;
+        transition: all 0.5s;
+
+    }
+    .button-contact-form:hover::after{
+        width: 100%;
+    }
+}
