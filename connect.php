@@ -21,7 +21,7 @@ else{
 $sql = "INSERT INTO contact (email,name,message)
 values ('$email','$name','$message')";
 if ($conn->query($sql)){
-echo "New record is inserted sucessfully";
+// echo "New record is inserted sucessfully";
 }
 else{
 echo "Error: ". $sql ."

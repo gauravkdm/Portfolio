@@ -1,11 +1,6 @@
 .body{
     margin: 0px;
-    padding: 0px;
-
-    color: #848484;
-    font-size: 16px;
-    line-height: 1.875em;
-    
+    padding: 0px;    
 }
 
 .navbar-toggler {
@@ -125,11 +120,7 @@ ul li{
     }
 }
 /* ----------------------------------------------------------------------------------------------------- */
-/* .button-contact-me i{
-    font-size: 20px;
-    margin-left:10px; 
 
-} */
 
 .portfolio-navbar{
     margin-top: 15px;
@@ -147,6 +138,7 @@ ul li{
 }
 .my-desc-h1{
     font-family:  'BioRhyme', serif;
+    /* font-size: 5px; */
     
 }
 .my-desc-paragraph1{
@@ -325,7 +317,7 @@ ul li{
 .contact-desc-name{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    margin: 2% 0%;
+    margin-top: 2%;
 }
 .contact-desc-message{
     font-family: 'Poppins', sans-serif;
@@ -367,13 +359,12 @@ ul li{
 .button-contact-form{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    color: #848484;
+    color: black;
     background-color: white;
     border: 0px;
     font-size: 18px;
     font-weight: 600;
-    margin-left: 2.1%;
-    
+     
 }
 @media only screen and (min-width :960px) {
     .button-contact-form{
@@ -395,6 +386,81 @@ ul li{
 
     }
     .button-contact-form:hover::after{
+        
+        width: 100%;
+    }
+}
+.modal-header-h4{
+    font-family:  'BioRhyme', serif;
+    font-weight: 500; 
+}
+.modal-body-p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; 
+}
+.modal-close-button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #848484;
+    background-color: white;
+    border: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 2.1%;
+}
+@media only screen and (min-width :960px) {
+    .modal-close-button{
+        padding: 0.4rem 0.2rem;
+        position: relative;
+    }
+    .modal-close-button::after {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        background-color: black;
+        color: transparent;
+        width: 0%;
+        content: '';
+        height: 3px;
+        transition: all 0.5s;
+
+    }
+    .modal-close-button:hover::after{
+        width: 100%;
+    }
+}
+.modal-save-button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #848484;
+    background-color: white;
+    border: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 2.1%;
+}
+@media only screen and (min-width :960px) {
+    .modal-save-button{
+        padding: 0.4rem 0.2rem;
+        position: relative;
+    }
+    .modal-save-button::after {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        background-color: black;
+        color: transparent;
+        width: 0%;
+        content: '';
+        height: 3px;
+        transition: all 0.5s;
+
+    }
+    .modal-save-button:hover::after{
         width: 100%;
     }
 }

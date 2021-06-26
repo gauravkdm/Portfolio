@@ -1,0 +1,83 @@
+
+.left_div{
+    background-color: black;
+    width: 50%;
+    height: 100vh;
+    transition: width 2s;
+    position: absolute;
+    animation-name: mymove;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+
+}
+
+
+@keyframes mymove {
+    from {width: 100%;}
+    to {width: 0;}
+}
+.right_div{
+    position: absolute;
+    right: 0px;
+    background-color: black;
+    width: 50%;
+    height: 100vh;
+    transition: width 2s;
+    position: absolute;
+    animation-name: mymoved;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+
+
+}
+
+@keyframes mymoved {
+    from {width: 100%;}
+    to {width: 0;}
+}
+
+.mid{
+    margin-left: 50%;
+  }
+.line {
+    position: absolute;
+    top: 50%;
+    width: 1px;
+    height: 0px;
+    background: #fff;
+    
+}
+.line-r{
+  width: 1px;
+  height: 0px;
+  bottom: 50%;
+  background: #fff;
+  position: absolute;
+  
+}
+#line_r{
+    -webkit-animation: line_r_animation 4s ;
+    animation: line_r_animation 2s ;
+}
+  
+#line_l{
+    -webkit-animation: line_l_animation 4s ;
+    animation: line_l_animation 2s ;
+}
+  
+
+@-webkit-keyframes line_l_animation {
+
+  0%   {bottom: 400px; height: 0px;}
+  50%   {bottom: 400px; height: 200px;}
+  100%   {bottom: 400px; height:470px;}
+}
+
+@-webkit-keyframes line_r_animation {
+  0%   {bottom: 470px; height: 0px;}
+  50%   {bottom: 470px; height: 200px;}
+  100%   {bottom: 470px; height:470px;}
+}
+  
