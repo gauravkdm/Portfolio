@@ -14,7 +14,10 @@
 }
 
 * { box-sizing: border-box; }
-html, body { height: 100%; }
+html, body { 
+  height: 100%; 
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: Geist, Arial, sans-serif;
@@ -41,9 +44,9 @@ img { max-width: 100%; height: auto; display: block; }
   height: calc(100vh - 64px);
   overflow: hidden;
   display: flex;
-  align-items: left;
-  justify-content: space-between;
-  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
   z-index: 10;
 }
 
@@ -52,21 +55,24 @@ img { max-width: 100%; height: auto; display: block; }
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  width: 98%;
+  width: 100%;
+  align-items: flex-start;
 }
 
 .left-content h1 {
   color: var(--text);
-  font-size: clamp(24px, 4vw, 36px);
+  font-size: clamp(32px, 5vw, 48px);
   line-height: 1.2;
   margin: 0;
   text-align: left;
+  width: 100%;
 }
 
 .info {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  width: 100%;
 }
 
 .info-item {
@@ -103,7 +109,58 @@ img { max-width: 100%; height: auto; display: block; }
   height: calc(100vh - 64px);
   overflow: hidden;
   z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
 }
+
+.right-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0 20px 0;
+}
+
+.profile-photo {
+  width: 95%;
+  height: auto;
+  max-width: 500px;
+  border-radius: 12px;
+  object-fit: cover;
+  aspect-ratio: 3/4;
+}
+
+.book-call-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 95%;
+  justify-content: space-between;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.book-call-row:hover {
+  opacity: 0.8;
+}
+
+.book-call-row i {
+  color: white;
+  font-size: 14px;
+}
+
+.book-call-row span {
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
 
 .section { padding: 72px 0; }
 .section-alt { background: var(--bg-alt); }
