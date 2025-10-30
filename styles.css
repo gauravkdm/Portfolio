@@ -21,8 +21,6 @@ body {
   color: var(--text);
   background: var(--bg);
   line-height: 1.6;
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
   min-height: 100vh;
 }
 
@@ -36,15 +34,75 @@ img { max-width: 100%; height: auto; display: block; }
 
 .left-section {
   background: var(--bg);
+  position: fixed;
+  top: 64px;
+  left: 0;
+  width: 25%;
+  height: calc(100vh - 64px);
+  overflow: hidden;
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  padding: 20px;
+  z-index: 10;
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 98%;
+}
+
+.left-content h1 {
+  color: var(--text);
+  font-size: clamp(24px, 4vw, 36px);
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-item {
+  color: #ffffff;
+  font-size: 14px;
+  text-align: left;
+  margin: 0;
+  border-bottom: 1px solid #ffffff;
+}
+
+.main-content h1 {
+  color: #fff;
+  font-size: 34px;
+  line-height: 1.2;
 }
 
 .main-content {
   background: var(--bg);
   padding: 0;
+  overflow: visible;
+  height: auto;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
 }
 
 .right-section {
   background: var(--bg);
+  position: fixed;
+  top: 64px;
+  right: 0;
+  width: 25%;
+  height: calc(100vh - 64px);
+  overflow: hidden;
+  z-index: 10;
 }
 
 .section { padding: 72px 0; }
@@ -65,12 +123,16 @@ p { margin: 0; color: var(--muted); }
 .eyebrow { color: var(--brand-2); font-weight: 600; text-transform: uppercase; letter-spacing: .08em; font-size: 13px; }
 
 .site-header {
-  position: sticky; top: 0; z-index: 50;
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  right: 0;
+  z-index: 100;
   background: rgba(0,0,0,.75);
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid #ffffff;
-  grid-column: 1 / -1;
+  width: 100%;
 }
 .header-inner { display: flex; align-items: center; justify-content: space-between; height: 64px; gap: 16px; }
 .topbar-actions { display: flex; align-items: center; gap: 12px; }
