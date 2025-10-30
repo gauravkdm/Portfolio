@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" rx="16" fill="#101218"/>
+  <rect x="24" y="24" width="752" height="452" rx="12" fill="#131621" stroke="#24283a"/>
+  <rect x="64" y="64" width="240" height="160" rx="10" fill="#0f121a" stroke="#24283a"/>
+  <rect x="324" y="64" width="160" height="16" rx="8" fill="#24283a"/>
+  <rect x="324" y="90" width="260" height="12" rx="6" fill="#24283a"/>
+  <rect x="324" y="112" width="220" height="12" rx="6" fill="#24283a"/>
+  <rect x="324" y="134" width="300" height="12" rx="6" fill="#24283a"/>
+  <rect x="64" y="244" width="672" height="12" rx="6" fill="#24283a"/>
+  <rect x="64" y="266" width="420" height="12" rx="6" fill="#24283a"/>
+  <text x="50%" y="88%" dominant-baseline="middle" text-anchor="middle" fill="#a9aebb" font-family="Inter, Arial" font-size="20">Voltaigo</text>
+</svg>
+

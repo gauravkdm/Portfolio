@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" rx="16" fill="#0f121a"/>
+  <rect x="24" y="24" width="752" height="452" rx="12" fill="#131621" stroke="#24283a"/>
+  <rect x="64" y="64" width="200" height="200" rx="12" fill="#0f121a" stroke="#24283a"/>
+  <rect x="280" y="64" width="200" height="200" rx="12" fill="#0f121a" stroke="#24283a"/>
+  <rect x="496" y="64" width="200" height="200" rx="12" fill="#0f121a" stroke="#24283a"/>
+  <rect x="64" y="284" width="360" height="12" rx="6" fill="#24283a"/>
+  <rect x="64" y="306" width="520" height="12" rx="6" fill="#24283a"/>
+  <text x="50%" y="88%" dominant-baseline="middle" text-anchor="middle" fill="#a9aebb" font-family="Inter, Arial" font-size="20">Piedmont Studio</text>
+</svg>
+
