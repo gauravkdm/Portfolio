@@ -46,9 +46,18 @@
       <div class="left-content">
         <h1>Hi! I'm Gaurav.</h1>
         <div class="info">
-          <p class="info-item">Frontend Development</p>
-          <p class="info-item">Backend Development</p>
-          <p class="info-item">Cloud Services</p>
+          <div class="info-item-wrapper">
+            <div class="info-divider"></div>
+            <p class="info-item">Frontend Development</p>
+          </div>
+          <div class="info-item-wrapper">
+            <div class="info-divider"></div>
+            <p class="info-item">Backend Development</p>
+          </div>
+          <div class="info-item-wrapper">
+            <div class="info-divider"></div>
+            <p class="info-item">Cloud Services</p>
+          </div>
         </div>
       </div>
     </div>
@@ -194,21 +203,38 @@
         </div>
       </section>
 
-      <section class="section">
-        <div class="container stack gap-3">
-          <h2>Client testimonials</h2>
-          <div class="testimonials">
-            <blockquote>
-              <p>“Gaurav built a brand concept and landing pages in record time at a very competitive price. We’re extremely happy with the results—super helpful, professional, and responsive.”</p>
-              <footer>— Jérémie Mairesse, Founder, Spendcut</footer>
-            </blockquote>
-            <blockquote>
-              <p>“Gaurav handled my Webflow build like a pro. The first draft was almost perfect; a little fine‑tuning and it was ready on time.”</p>
-              <footer>— Janne Parri, Designer</footer>
-            </blockquote>
-          </div>
-          <div>
-            <a class="btn btn-primary" href="mailto:gaurav@example.com?subject=Project Request">Book a call</a>
+      <section class="section testimonials-section">
+        <div class="container">
+          <div class="testimonials-container">
+            <div class="testimonials-header">
+              <h2>Client testimonials</h2>
+              <div class="testimonials-divider"></div>
+            </div>
+            <div class="testimonial-content">
+              <div class="testimonial-company" id="testimonial-company">Spendcut</div>
+              <div class="testimonial-slider">
+                <button class="testimonial-nav-btn testimonial-prev" aria-label="Previous testimonial">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <div class="testimonial-quote">
+                  <p id="testimonial-text">“Gaurav built a brand concept and landing pages in record time at a very competitive price. We're extremely happy with the results—super helpful, professional, and responsive.”</p>
+                </div>
+                <button class="testimonial-nav-btn testimonial-next" aria-label="Next testimonial">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </div>
+              <div class="testimonial-author">
+                <div class="author-avatar">
+                  <img id="testimonial-avatar" src="/assets/img/Profile_Photo_1.jpeg" alt="Jérémie Mairesse" />
+                </div>
+                <div class="author-name" id="testimonial-name">Jérémie Mairesse</div>
+                <div class="author-title" id="testimonial-title">Founder, Spendcut</div>
+              </div>
+              <div class="testimonial-dots" id="testimonial-dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -231,12 +257,11 @@
         <!-- -> Book a call following with Linkedin Icon in single row-->
         <div class="book-call-row">
           <a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/gnksip'}); return false;" class="book-call-link">
-            <i class="fa-solid fa-calendar-check"></i>
-            <span>Schedule a Call</span>
+            <i class="fa-solid fa-arrow-right"></i>
+            <span>BOOK A CALL</span>
           </a>
           <a href="https://www.linkedin.com/in/gauravkadam121" target="_blank" rel="noopener" class="linkedin-link">
             <i class="fa-brands fa-linkedin"></i>
-            <span>Let's Connect</span>
           </a>
         </div>
       </div>
