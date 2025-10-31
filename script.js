@@ -103,18 +103,18 @@ document.addEventListener('DOMContentLoaded', () => {
   // Testimonial slider functionality
   const testimonials = [
     {
-      company: 'Spendcut',
-      quote: '"Gaurav built a brand concept and landing pages in record time at a very competitive price. We\'re extremely happy with the results—super helpful, professional, and responsive."',
-      name: 'Jérémie Mairesse',
-      title: 'Founder, Spendcut',
-      avatar: '/assets/img/Profile_Photo_1.jpeg'
+      company: 'Conduit Commerce',
+      quote: '"Collaborating with Gaurav has been a great experience. He has a strong grasp of backend systems and always ensures clean, efficient, and maintainable code."',
+      name: 'Shrikant Patil',
+      title: 'Developer',
+      avatar: '/assets/img/Shrikant.jpeg'
     },
     {
-      company: '',
-      quote: '"Gaurav handled my Webflow build like a pro. The first draft was almost perfect; a little fine‑tuning and it was ready on time."',
-      name: 'Janne Parri',
-      title: 'Designer',
-      avatar: '/assets/img/Profile_Photo_1.jpeg'
+      company: 'Conduit Commerce',
+      quote: '"Gaurav is a great developer. He is always willing to help and is a quick learner. He is a great team player and is always willing to go the extra mile."',
+      name: 'Vishal Gadiya',
+      title: 'Developer',
+      avatar: '/assets/img/Vishal.jpeg'
     }
   ];
 
