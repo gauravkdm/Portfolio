@@ -1,12 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const toggle = document.querySelector('.nav-toggle');
-  const menu = document.getElementById('nav-menu');
-  if (toggle && menu) {
-    toggle.addEventListener('click', () => {
-      const isOpen = menu.classList.toggle('open');
-      toggle.setAttribute('aria-expanded', String(isOpen));
-    });
-  }
 
   // Simple intersection-based reveal animations
   const observer = new IntersectionObserver((entries) => {

@@ -36,7 +36,6 @@
           </ul>
         </nav>
         <div class="topbar-actions">
-          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">Menu</button>
           <a class="btn btn-primary" href="mailto:gaurav@example.com?subject=Project Request">Request a project<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="icon" viewBox="0 0 24 24"><path fill="currentColor" d="M6 6v2h8.59L5 17.59L6.41 19L16 9.41V18h2V6z"></path></svg></a>
         </div>
       </div>
@@ -49,7 +48,7 @@
           <div class="info-item-wrapper">
             <div class="info-divider"></div>
             <p class="info-item">Frontend Development</p>
-          </div>
+            </div>
           <div class="info-item-wrapper">
             <div class="info-divider"></div>
             <p class="info-item">Backend Development</p>
@@ -62,6 +61,10 @@
       </div>
     </div>
     <main id="main" tabindex="-1" class="main-content">
+      <div class="mobile-header">
+        <h1 class="mobile-greeting">Hi! I'm Gaurav.</h1>
+        <img src="/assets/img/Profile_Photo_1.jpeg" alt="Gaurav Kadam Profile Photo" class="mobile-profile-photo" />
+      </div>
       <section class="hero-section">
         <div class="hero-container">
           <h1>Where creative vision meets technical execution that’s<br> -what I build. :)</h1>
@@ -71,7 +74,7 @@
       <section id="services" class="section">
         <div class="container stack gap-4">
           <div class="services-header">
-            <h2>What I do</h2>
+          <h2>What I do</h2>
             <div class="services-divider"></div>
           </div>
           <div class="services-grid">
@@ -117,31 +120,31 @@
         <div class="container">
           <div class="featured-work-container">
             <div class="featured-work-header">
-              <h2>Featured work</h2>
+            <h2>Featured work</h2>
               <div class="featured-work-divider"></div>
-            </div>
+          </div>
             <div class="featured-work-grid">
               <a href="https://www.joinpinyada.com/" target="_blank" class="featured-work-card">
                 <img src="/assets/img/Pinyada.png" alt="Pinyada Project" />
                 <div class="featured-card-footer">
                   <span class="project-name">Pinyada</span>
                   <span class="view-project"><i class="fa-solid fa-arrow-right"></i> View Project</span>
-                </div>
-              </a>
+              </div>
+            </a>
               <a href="https://ttg-dev.azurewebsites.net/log-in" target="_blank" class="featured-work-card">
                 <img src="/assets/img/TTG_Project.png" alt="The Trading Textile Group" />
                 <div class="featured-card-footer">
                   <span class="project-name">The Trading Textile Group</span>
                   <span class="view-project"><i class="fa-solid fa-arrow-right"></i> View Project</span>
-                </div>
-              </a>
+              </div>
+            </a>
               <a href="https://thetrainingassociates.com/" target="_blank" class="featured-work-card">
                 <img src="/assets/img/TTA_Project.jpeg" alt="The Training Associates Project" />
                 <div class="featured-card-footer">
                   <span class="project-name">The Training Associates</span>
                   <span class="view-project"><i class="fa-solid fa-arrow-right"></i> View Project</span>
-                </div>
-              </a>
+              </div>
+            </a>
             </div>
             <div class="featured-work-divider-bottom"></div>
           </div>
@@ -152,13 +155,13 @@
         <div class="container">
           <div class="about-container">
             <div class="about-header">
-              <h2>A little about me</h2>
+            <h2>A little about me</h2>
               <div class="about-divider"></div>
             </div>
             <div class="about-content">
               <p>I enjoy collaborating with creative teams, startups, and ambitious brands to build websites that feel modern, perform seamlessly, and scale effortlessly.</p>
               <p>By blending thoughtful design with clean engineering, I create digital experiences that are both engaging and reliable. Every project is built with care, communication, and a focus on turning ideas into meaningful, high-performing results.</p>
-            </div>
+          </div>
           </div>
         </div>
       </section>
@@ -261,6 +264,15 @@
               <div class="work-together-underline"></div>
             </a>
           </div>
+          <div class="work-together-book-call-row">
+            <a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/gnksip'}); return false;" class="book-call-link">
+              <i class="fa-solid fa-arrow-right"></i>
+              <span>BOOK A CALL</span>
+            </a>
+            <a href="https://www.linkedin.com/in/gauravkadam121" target="_blank" rel="noopener" class="linkedin-link">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
         </div>
       </section>
     </main>
@@ -294,6 +306,6 @@
     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
     <script src="/script.js" defer></script>
   </body>
-</html>
+  </html>
 
 
