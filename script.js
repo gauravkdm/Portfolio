@@ -99,14 +99,14 @@ document.addEventListener('DOMContentLoaded', () => {
       quote: '"Collaborating with Gaurav has been a great experience. He has a strong grasp of backend systems and always ensures clean, efficient, and maintainable code."',
       name: 'Shrikant Patil',
       title: 'Developer',
-      avatar: '/assets/img/Shrikant.jpeg'
+      avatar: 'assets/img/Shrikant.jpeg'
     },
     {
       company: 'Conduit Commerce',
       quote: '"Gaurav is a great developer. He is always willing to help and is a quick learner. He is a great team player and is always willing to go the extra mile."',
       name: 'Vishal Gadiya',
       title: 'Developer',
-      avatar: '/assets/img/Vishal.jpeg'
+      avatar: 'assets/img/Vishal.jpeg'
     }
   ];
 
