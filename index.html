@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css" />
     <link rel="icon" href="/assets/img/favicon.svg" />
     <meta property="og:title" content="Gaurav Kadam | Full Stack Developer" />
@@ -36,7 +37,7 @@
         </nav>
         <div class="topbar-actions">
           <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">Menu</button>
-          <a class="btn btn-primary" href="/contact.html">Request a project<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="icon" viewBox="0 0 24 24"><path fill="currentColor" d="M6 6v2h8.59L5 17.59L6.41 19L16 9.41V18h2V6z"></path></svg></a>
+          <a class="btn btn-primary" href="mailto:gaurav@example.com?subject=Project Request">Request a project<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="icon" viewBox="0 0 24 24"><path fill="currentColor" d="M6 6v2h8.59L5 17.59L6.41 19L16 9.41V18h2V6z"></path></svg></a>
         </div>
       </div>
     </header>
@@ -52,45 +53,53 @@
       </div>
     </div>
     <main id="main" tabindex="-1" class="main-content">
-      <section class="hero section">
-        <div class="container">
-            <h1>I turn thoughts into things that people can feel, click, and love. <br>
-              Every interaction crafted with purpose and passion.</h1>
-            <!-- <div class="inline-actions">
-              <a class="btn btn-primary" href="/contact.html">Request a project<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="icon" viewBox="0 0 24 24"><path fill="currentColor" d="M6 6v2h8.59L5 17.59L6.41 19L16 9.41V18h2V6z"></path></svg></a>
-              <a class="btn btn-ghost" href="#work">View work</a>
-            </div> -->
+      <section class="hero-section">
+        <div class="hero-container">
+          <h1>Building websites that are not just functional, but also beautiful and engaging.</h1>
         </div>
       </section>
 
       <section id="services" class="section">
         <div class="container stack gap-4">
-          <h2>What I do</h2>
-          <div class="cards grid-three">
-            <article class="card">
+          <div class="services-header">
+            <h2>What I do</h2>
+            <div class="services-divider"></div>
+          </div>
+          <div class="services-grid">
+            <div class="service-item">
               <h3>Conversion‑focused design</h3>
-              <p>Clean, strategic layouts that balance aesthetics and clarity, guiding visitors to take action.</p>
-            </article>
-            <article class="card">
+              <p>Clean, strategic layouts that balance aesthetics and clarity, guiding visitors toward key actions.</p>
+              <div class="service-divider"></div>
+            </div>
+            <div class="service-item">
               <h3>Clean and efficient code</h3>
-              <p>Organized builds following best practices, making your site fast, maintainable, and scalable.</p>
-            </article>
-            <article class="card">
-              <h3>Organized, scalable CMS</h3>
-              <p>Structured CMS so updating content is simple, consistent, and future‑proof.</p>
-            </article>
-            <article class="card">
+              <p>Organized builds following best practices, making your site fast, easy to maintain, and ready to scale.</p>
+              <div class="service-divider"></div>
+            </div>
+            <div class="service-item">
+              <h3>Organized and scalable CMS</h3>
+              <p>Structured CMS setup so updating content is simple, consistent, and effortless as your website grows.</p>
+              <div class="service-divider"></div>
+            </div>
+            <div class="service-item">
               <h3>Subtle animations</h3>
-              <p>Smooth micro‑interactions that enhance UX without distracting from your message.</p>
-            </article>
-            <article class="card">
+              <p>Smooth animations and micro‑interactions that improve user experience without distracting from your message.</p>
+              <div class="service-divider"></div>
+            </div>
+            <div class="service-item">
               <h3>A clear workflow</h3>
-              <p>Transparent, collaborative process from discovery to launch with regular updates.</p>
-            </article>
-            <article class="card">
+              <p>From discovery to launch, a transparent and collaborative process with regular updates at every stage.</p>
+              <div class="service-divider"></div>
+            </div>
+            <div class="service-item">
               <h3>Performance optimization</h3>
               <p>Fast‑loading pages with solid technical foundations for SEO and performance.</p>
-            </article>
+              <div class="service-divider"></div>
+            </div>
+            <div class="service-item">
+              <h3>Post‑launch support</h3>
+              <p>After launch, you'll receive training and support to confidently manage your site moving forward.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -128,45 +137,60 @@
       </section>
 
       <section id="about" class="section">
-        <div class="container grid-two">
-          <div class="stack gap-3">
-            <h2>A little about me</h2>
-            <p>I partner with agencies, startups, and businesses worldwide to create high‑performing websites. My end‑to‑end process covers strategy, design, and custom Webflow development.</p>
-            <p>I approach each project with curiosity and a commitment to ship websites that look good and perform well. I value direct communication and remain responsive and reliable throughout.</p>
-          </div>
-          <div class="about-cards stack gap-2">
-            <div class="about-item"><strong>Web Design</strong><span>Figma, UX flows, conversion strategy</span></div>
-            <div class="about-item"><strong>Webflow Development</strong><span>Semantic structure, interactions, CMS</span></div>
-            <div class="about-item"><strong>SEO</strong><span>Technical foundations, performance, metadata</span></div>
+        <div class="container">
+          <div class="about-container">
+            <div class="about-header">
+              <h2>A little about me</h2>
+              <div class="about-divider"></div>
+            </div>
+            <div class="about-content">
+              <p>I partner with agencies, startups, and businesses worldwide to create high-performing websites. My end-to-end process covers everything from strategy through design to custom Webflow development.</p>
+              <p>I approach each project with an open mind, curiosity, and commitment to deliver websites that look good and perform well. I value direct communication and remain responsive and reliable throughout the process.</p>
+            </div>
           </div>
         </div>
       </section>
 
       <section id="process" class="section section-alt">
-        <div class="container stack gap-4">
-          <h2>How I work</h2>
-          <ol class="process">
-            <li>
-              <h3>Discovery</h3>
-              <p>Deep‑dive into goals, audience, and competitive landscape to define the right solution.</p>
-            </li>
-            <li>
-              <h3>Strategy</h3>
-              <p>Map the user journey, messaging hierarchy, and conversion paths aligned to objectives.</p>
-            </li>
-            <li>
-              <h3>Design</h3>
-              <p>Figma designs focused on clarity, flow, and conversion, balancing performance and aesthetics.</p>
-            </li>
-            <li>
-              <h3>Development</h3>
-              <p>Responsive Webflow build with clean structure, subtle interactions, scalable CMS, and SEO.</p>
-            </li>
-            <li>
-              <h3>Launch</h3>
-              <p>Training and support so you can confidently manage your site post‑launch.</p>
-            </li>
-          </ol>
+        <div class="container">
+          <div class="process-container">
+            <h2 class="process-title">How I work</h2>
+            <div class="process-item">
+              <div class="process-divider"></div>
+              <div class="process-content">
+                <h3><span class="process-number">1/</span> Discovery</h3>
+                <p>We'll dive deep into your business goals, target audience, and competitive landscape to make sure your website serves your strategic objectives, not just looks good. This phase allows me to build the right solution from day one.</p>
+              </div>
+            </div>
+            <div class="process-item">
+              <div class="process-divider"></div>
+              <div class="process-content">
+                <h3><span class="process-number">2/</span> Strategy</h3>
+                <p>We'll map out your user journey and define how your website will convert visitors into customers. This includes competitor analysis, messaging hierarchy, and conversion optimization strategy, making sure every design decision supports your business goals rather than just aesthetic preferences.</p>
+              </div>
+            </div>
+            <div class="process-item">
+              <div class="process-divider"></div>
+              <div class="process-content">
+                <h3><span class="process-number">3/</span> Design</h3>
+                <p>I'll create the design in Figma, focused on user flow and conversion optimization. Every layout decision is based on your business objectives, from call-to-action placement to content hierarchy, balancing performance with clean aesthetics.</p>
+              </div>
+            </div>
+            <div class="process-item">
+              <div class="process-divider"></div>
+              <div class="process-content">
+                <h3><span class="process-number">4/</span> Development</h3>
+                <p>I'll build your website in Webflow. This includes responsive layouts, clean custom code, smooth and subtle animations and interactions that improve user experience, a scalable CMS structure for easy content management and SEO optimization - all built so your site performs well and stays manageable long-term.</p>
+              </div>
+            </div>
+            <div class="process-item">
+              <div class="process-divider"></div>
+              <div class="process-content">
+                <h3><span class="process-number">5/</span> Launch</h3>
+                <p>Once your site goes live, I'll walk you through how to update content and manage everything yourself. You'll get training and initial support to make sure you feel confident handling your site independently.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -184,7 +208,19 @@
             </blockquote>
           </div>
           <div>
-            <a class="btn btn-primary" href="/contact.html">Book a call</a>
+            <a class="btn btn-primary" href="mailto:gaurav@example.com?subject=Project Request">Book a call</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section work-together-section">
+        <div class="container">
+          <div class="work-together-divider"></div>
+          <div class="work-together-content">
+            <a href="mailto:gaurav@example.com?subject=Project Request" class="work-together-text">
+              <span class="work-together-label">Let's work together</span>
+              <div class="work-together-underline"></div>
+            </a>
           </div>
         </div>
       </section>
@@ -193,33 +229,19 @@
       <div class="right-content">
         <img src="/assets/img/Profile_Photo_1.jpeg" alt="Gaurav Kadam Profile Photo" class="profile-photo" />
         <!-- -> Book a call following with Linkedin Icon in single row-->
-        <a href="https://www.linkedin.com/in/gauravkadam121" target="_blank" rel="noopener" class="book-call-row">
-          <div>
-            <div>
-              <i class="fa-solid fa-arrow-right"></i>
-              <span>Lets Chat</span>
-            </div>
-          </div>
-          <div>
-            <div>
-              <i class="fa-brands fa-linkedin"></i>
-            </div>
-          </div>
-        </a>
+        <div class="book-call-row">
+          <a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/gnksip'}); return false;" class="book-call-link">
+            <i class="fa-solid fa-calendar-check"></i>
+            <span>Schedule a Call</span>
+          </a>
+          <a href="https://www.linkedin.com/in/gauravkadam121" target="_blank" rel="noopener" class="linkedin-link">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>Let's Connect</span>
+          </a>
+        </div>
       </div>
     </div>
 
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <div class="footer-brand">Gaurav Kadam — Web Designer · Webflow Developer</div>
-        <nav class="footer-nav" aria-label="Footer">
-          <a href="#services">Services</a>
-          <a href="#work">Work</a>
-          <a href="#process">Process</a>
-          <a href="/contact.html">Contact</a>
-        </nav>
-      </div>
-    </footer>
 
     <script type="application/ld+json">
       {
@@ -231,8 +253,9 @@
         "sameAs": []
       }
     </script>
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
     <script src="/script.js" defer></script>
   </body>
-  </html>
+</html>
 
 
