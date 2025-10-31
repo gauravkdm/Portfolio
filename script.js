@@ -71,6 +71,35 @@ document.addEventListener('DOMContentLoaded', () => {
     lineObserver.observe(divider);
   });
 
+  // Observe featured work divider
+  const featuredWorkDivider = document.querySelector('.featured-work-divider');
+  if (featuredWorkDivider) {
+    lineObserver.observe(featuredWorkDivider);
+  }
+
+  // Observe featured work bottom divider
+  const featuredWorkDividerBottom = document.querySelector('.featured-work-divider-bottom');
+  if (featuredWorkDividerBottom) {
+    lineObserver.observe(featuredWorkDividerBottom);
+  }
+
+  // Animate featured work cards on scroll
+  const cardObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry, index) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => {
+          entry.target.classList.add('animate');
+        }, index * 150); // Stagger animation for each card
+        cardObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+
+  // Observe all featured work cards
+  document.querySelectorAll('.featured-work-card').forEach((card) => {
+    cardObserver.observe(card);
+  });
+
   // Testimonial slider functionality
   const testimonials = [
     {
